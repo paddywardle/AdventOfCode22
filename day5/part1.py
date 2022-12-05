@@ -24,6 +24,8 @@ if __name__ == "__main__":
             for i in range(num_crates):
                 stack_list[finish_stack_index].insert(0, starting_stack[0])
                 stack_list[start_stack_index].pop(0)
+            
+            break
 
     final_answer = ''
 
